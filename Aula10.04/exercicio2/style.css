@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer{
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 15vh;
+}
+
+main{
+    display: flex;
+    height: 70vh;
+}
+
+article{
+    background-color:blueviolet;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 50vw;
+    order: 2;
+}
+
+aside{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    width: 25vw;
+    text-align: center;
+    order: 1;
+}
+
+nav{
+    background-color: darkorange;
+    color: white;
+    padding: 10px;
+    width: 25vw;
+    text-align: center;
+    order: 3;
+}
